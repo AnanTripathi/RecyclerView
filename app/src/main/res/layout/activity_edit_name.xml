@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditName">
+    <EditText
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:gravity="start"
+        android:hint="the text will be here"
+        android:layout_height="0dp"
+        android:id="@+id/editText"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="delete"
+            android:id="@+id/deleteButton"/>
+         <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_margin="10dp"
+            android:text="save"
+             android:id="@+id/saveButton"/>
+
+    </LinearLayout>
+
+</LinearLayout>
