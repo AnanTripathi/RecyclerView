@@ -61,6 +61,8 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
         RecyclerViewAdapter adapter = new RecyclerViewAdapter( mNames, mImageUrls,this);
         recyclerView.setAdapter(adapter);
+        //this line is for setting a horizontal layout
+        //LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 }
